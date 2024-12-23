@@ -17,7 +17,8 @@
 * u\_modbus\_tcp：UFACTORY自定义协议（PC与控制器通信）
 * Externals：外接设备，例如BIO机械爪、xArm真空吸头、xArm机械爪等
 
-![](../.gitbook/assets/Communication\_flow\_chart.png)\
+  
+![](asset/Communication_flow_chart.png)
 
 
 ### 3. 上报数据说明：
