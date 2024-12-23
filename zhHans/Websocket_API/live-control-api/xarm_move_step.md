@@ -3,10 +3,12 @@
 
 192.168.1.66:18333/ws
 
-开始移动机械臂接口\
-实时控制界面运动控制接口实现了控制界面按钮单击运动和长按运动,需要与xarm\_move\_step\_over(停止移动机械臂)接口联用。
+按钮： [实时控制] - X+ / X- / Y+ / Y- / Z+ / Z-
 
-长按： 先请求xarm\_move\_step, 同时每隔最少0.2s需要发送xarm\_move\_step\_online.
+长按：保持向某个方向移动，直到按钮被释放，需要与 xarm_move_step_over 和 xarm_move_step_online 配合使用。
+
+短按：向某个方向移动一步。
+
 
 ### **Message** 
 
