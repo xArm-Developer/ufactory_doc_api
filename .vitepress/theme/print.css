@@ -7,6 +7,11 @@
         display: none !important;
     }
 
+    .VPDoc,
+    .VPDoc .content {
+        padding: 0;
+    }
+
     html,
     body {
         margin: 0;
