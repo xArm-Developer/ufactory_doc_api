@@ -15,11 +15,11 @@
 
 **Request：**
 * cmd
-* string，必填，请求接口
+  * string，必填，请求接口
 
 * id
 
-* string，必填，请求序列号
+    * string，必填，请求序列号
 
 
 
