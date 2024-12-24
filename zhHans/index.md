@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /zhHans/Websocket_API/live_control_api/1.xarm_move_step
+      link: /zhHans/Websocket_API/live_control_api/1.xarm_move_step.html
     - theme: alt
       text: Github
       link: https://github.com/xArm-Developer/ufactory_doc_api
