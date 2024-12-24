@@ -10,7 +10,7 @@ hero:
       link: /Websocket_API/live_control_api/1.xarm_move_step 
     - theme: alt
       text: Github
-      link: https://github.com/xArm-Developer/ufactory_usermanual
+      link: https://github.com/xArm-Developer/ufactory_doc_api
 
 
 features:
