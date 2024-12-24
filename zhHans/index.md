@@ -7,19 +7,19 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: user_manual/ufactoryStudio/1.preface.html
+      link: /zhHans/Websocket_API/live_control_api/1.xarm_move_step
     - theme: alt
       text: Github
       link: https://github.com/xArm-Developer/ufactory_usermanual
 
 
 features:
-  - title: 用户手册
+  - title: API
     icon: 
       src: /assets/support_article.svg
       width: 400
       height: 400
-      alt: 用户手册
+      alt: API
     link: user_manual/ufactoryStudio/1.preface.html
     details: UFACTORY Studio user manual
   # - title: Python SDK
