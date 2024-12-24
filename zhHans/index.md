@@ -19,9 +19,9 @@ features:
       src: /assets/support_article.svg
       width: 400
       height: 400
-      alt: API
+      alt: User Manual
     link: user_manual/ufactoryStudio/1.preface.html
-    details: UFACTORY Studio user manual
+    details: UFACTORY Studio API
   # - title: Python SDK
   #   icon: 
   #     src: /assets/python.svg
