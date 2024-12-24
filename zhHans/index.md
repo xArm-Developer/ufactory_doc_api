@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /zhHans/Websocket_API.html
+      link: /zhHans/Modbus_TCP/MOdbus_TCP.html
     - theme: alt
       text: Github
       link: https://github.com/xArm-Developer/ufactory_doc_api
@@ -19,7 +19,7 @@ features:
       width: 400
       height: 400
       alt: API
-    link: /zhHans/Websocket_API.html
+    link: /zhHans/Modbus_TCP/MOdbus_TCP.html
     details: UFACTORY Studio API
   # - title: Python SDK
   #   icon: 
