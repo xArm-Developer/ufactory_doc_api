@@ -19,7 +19,7 @@ features:
       width: 400
       height: 400
       alt: API
-    link: user_manual/ufactoryStudio/1.preface.html
+    link: /zhHans/Websocket_API/live_control_api/1.xarm_move_step.html
     details: UFACTORY Studio API
   # - title: Python SDK
   #   icon: 
