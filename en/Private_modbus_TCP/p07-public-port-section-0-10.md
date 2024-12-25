@@ -13,10 +13,13 @@
 
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 01    U16, Length 
-//01       U8, Register
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+>
+> //00 01    U16, Length 
+> 
+>//01       U8, Register
 
 
 
@@ -27,16 +30,16 @@
 
 > Response Description:
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 2A    U16, Length 
-//01       U8, Register
-//00       U8, State
-//36 2C 36 2C   U8, Type, Axes, 6,6,
-//58 49 31 32 30 32 2C    U8, xArm Version XI1202,
-//41 43 31 33 30 32 2C    U8, Control Box Version AC1302,
-//76 31 2E 31 32 2E 31 30    U8, Firmware Version v1.12.10
-//00 00 00 00 00 00 00 00 00 00 00 00 00 00   U8, null  
+> //00 01    U16, Transaction ID
+> //00 02    U16, Protocol Identifier
+> //00 2A    U16, Length 
+> //01       U8, Register
+> //00       U8, State
+> //36 2C 36 2C   U8, Type, Axes, 6,6,
+> 58 49 31 32 30 32 2C    U8, xArm Version XI1202,
+> 41 43 31 33 30 32 2C    U8, Control Box Version AC1302,
+> 76 31 2E 31 32 2E 31 30    U8, Firmware Version v1.12.10
+> 00 00 00 00 00 00 00 00 00 00 00 00 00 00   U8, null  
 
 ---
 
