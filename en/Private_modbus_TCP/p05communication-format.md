@@ -16,7 +16,7 @@ The following explains some of the symbols used in the examples and tables:
 
 ## Private protocol Format 
 
-#### Private protocol:
+**Private protocol:**
 
 Private protocol is an application layer message transmission protocol, including three message types: ASCII, RTU, and TCP. The standard Modbus protocol physical layer interface includes RS232, RS422, RS485 and Ethernet interfaces, and adopts master / slave communication.
 
@@ -76,7 +76,7 @@ Status Bit of the Response Format
 
 ## **Data in big endian and little endian:**
 
-#### This  protocol:
+**This  protocol:**
 
 > 1\. The transaction identifier (U16) are in big endian order.
 >
@@ -102,7 +102,7 @@ Status Bit of the Response Format
 | ---- | ----- | ----- | ----- | ----- | ---- |
 | ...  | 0x12  | 0x34  | 0x56  | 0x78  | ...  |
 
-**tab title="Little-endian method**
+**Little-endian method**
 
 
 |      | 0x100 | 0x101 | 0x102 | 0x103 |      |
