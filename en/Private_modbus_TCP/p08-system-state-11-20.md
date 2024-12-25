@@ -17,16 +17,25 @@ The above operations will terminate the ongoing movement of the robotic arm and 
 > Request Description
 >
 > //00 01    U16, Transaction ID
+> 
 > //00 02    U16, Protocol Identifier
-> //00 03    U16, Length 
+> 
+> //00 03    U16, Length
+> 
 > //0B       U8, Register
-> //08       U8, 
-> Joint Number(Select all joints)
+> 
+> //08       U8, Joint Number(Select all joints)
+> 
 > 1-7：Motor joint(1-7)
+> 
 >: 8：Select all joint
+> 
 > //01    U8,Whether to enable the servo
+> 
 > 1：Enable servo
+> 
 > 0：Disable servo
+> 
 
 
 
