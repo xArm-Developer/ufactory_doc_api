@@ -9,8 +9,8 @@ The above operations will terminate the ongoing movement of the robotic arm and 
 
 ---
 
+* Request:
 ```
-//Request:
 00 01 00 02 00 03 0B 08 01
 ```
 
