@@ -22,6 +22,7 @@ Button: \[Live Control] - Real/Sim
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="136">Name</th><th width="85">Type</th><th width="144">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>on_off</td><td>bool</td><td>Yes</td><td><p>True: enable;</p><p>False: disable;</p></td></tr></tbody></table>
+
 **Response**
 
 ```
