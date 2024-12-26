@@ -21,6 +21,7 @@ Button:\[Live Control] - \[End Effector]- open/ close/ stop
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="136">Name</th><th width="85">Type</th><th width="144">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>op</td><td>String</td><td>Yes</td><td><p>open: Open the gripper Lite;</p><p>close: Close the gripper Lite;</p><p>stop: Stop the gripper Lite;</p></td></tr></tbody></table>
+
 **Response**
 
 ```
