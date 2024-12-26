@@ -10,8 +10,8 @@ Button: \[Blockly]- \[Controller IO]-Set CO
 
 **Message**
 
-````json
-```
+```json
+
 {
     "cmd": "xarm_set_cgpio_digital",
     "data": {
@@ -22,7 +22,7 @@ Button: \[Blockly]- \[Controller IO]-Set CO
     "id": "1"
 }
 ```
-````
+
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="120">Name</th><th width="79">Type</th><th width="135">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>ionum</td><td>int</td><td>Yes</td><td>CO0-CO7</td></tr><tr><td>value</td><td>int</td><td>Yes</td><td><p>0: low level; </p><p>1: high level;</p></td></tr><tr><td>delay</td><td>int</td><td>No</td><td><p>delay time; </p><p>0: set it immediately</p></td></tr></tbody></table>
