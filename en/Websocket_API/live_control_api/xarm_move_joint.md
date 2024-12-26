@@ -58,9 +58,7 @@ if ret is not None:
 self.last_move_client = client
 code = GLOBAL.XArm.xarm.set_servo_angle(angle=angles, speed=mvvelo, mvacc=mvacc, mvtime=mvtime,is_radian=False, wait=False, radius=radius)
 ```
-
-#### xxxxxxxxxx self.switch_mode_lite6 = (mode, callback) => {  const params = window.GlobalConstant.INIT_CMD_PARAMS_COMMON_DATA();  Object.assign(params.data, {    mode: mode,    status: mode === 2 ? 1 : 0  });  self.sendCmd(window.GlobalConstant.SWITCH_MODE_LITE6, params, (dict) => {    if (callback) {      callback(dict);    }  });};javascript
-
+#### front_end
 ```javascript
 self.moveJoint = (positions, index, isWait, callback, isControl, modName, isClickMove) => {
   if (modName === 'blockly' && isControl === false && !window.Blockly.Running) {
