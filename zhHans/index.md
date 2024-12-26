@@ -19,7 +19,7 @@ features:
       width: 400
       height: 400
       alt: API
-    link: /zhHans/Modbus_TCP/MOdbus_TCP.html
+    link: /zhHans/Modbus_TCP/Modbus_TCP.html
     details: UFACTORY Studio API
   # - title: Python SDK
   #   icon: 
