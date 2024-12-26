@@ -1,3 +1,8 @@
+---
+title: switch_mode_lite6
+order: 2
+---
+
 # switch\_mode\_lite6
 
 ### 1. Introduction

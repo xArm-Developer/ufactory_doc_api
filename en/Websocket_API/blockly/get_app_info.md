@@ -1,4 +1,4 @@
-# get\_app\_info
+# get_app_info
 
 ### 1. Introduction
 

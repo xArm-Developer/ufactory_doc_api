@@ -1,3 +1,8 @@
+---
+title: xarm_switch_mode
+order: 11
+---
+
 # xarm\_switch\_mode
 
 ### 1. Introduction

@@ -1,3 +1,8 @@
+---
+title: xarm_set_speed
+order: 10
+---
+
 # xarm\_set\_speed
 
 ### 1. Introduction

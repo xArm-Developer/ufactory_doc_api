@@ -1,4 +1,4 @@
-# get\_app\_xml\_data
+# get_app_xml_data
 
 ### 1. Introduction
 

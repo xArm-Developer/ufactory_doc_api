@@ -1,4 +1,4 @@
-# xarm\_move\_circle
+# xarm_move_circle
 
 ### 1. Introduction
 

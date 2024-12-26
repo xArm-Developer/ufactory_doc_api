@@ -1,3 +1,8 @@
+---
+title: xarm_set_gripper_position
+order: 7
+---
+
 # xarm\_set\_gripper\_position
 
 ### 1. Introduction

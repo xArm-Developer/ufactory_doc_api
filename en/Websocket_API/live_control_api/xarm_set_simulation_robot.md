@@ -1,3 +1,8 @@
+---
+title: xarm_set_simulation_robot
+order: 9
+---
+
 # xarm\_set\_simulation\_robot
 
 ### 1. Introduction

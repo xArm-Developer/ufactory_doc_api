@@ -1,3 +1,8 @@
+---
+title: xarm_set_lite6_gripper
+order: 8
+---
+
 # xarm\_set\_lite6\_gripper
 
 ### 1. Introduction

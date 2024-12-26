@@ -1,3 +1,8 @@
+---
+title: xarm_move_joint
+order: 3
+---
+
 # xarm\_move\_joint
 
 ### 1. Introduction

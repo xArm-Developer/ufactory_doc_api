@@ -1,4 +1,4 @@
-# xarm\_move\_arc\_line
+# xarm_move_arc_line
 
 ### 1. Introduction
 

@@ -1,3 +1,8 @@
+---
+title: xarm_set_bio_gripper_enable
+order: 6
+---
+
 # xarm\_set\_bio\_gripper\_enable
 
 ### 1. Introduction
