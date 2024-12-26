@@ -6,8 +6,7 @@ Set the speed percent of \[Live Control] page.
 
 ### 2. Request & Response
 
-{% tabs %}
-{% tab title="Message" %}
+**Message**
 ```json
 {
     "cmd": "xarm_set_speed",
@@ -17,19 +16,16 @@ Set the speed percent of \[Live Control] page.
     "id":"set_speed_100%"
 }
 ```
-{% endtab %}
+**Request**
 
-{% tab title="Request" %}
 <table data-full-width="true"><thead><tr><th width="136">Name</th><th width="85">Type</th><th width="144">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>percent</td><td>int</td><td>Yes</td><td>set the speed percent of the Arm 0.01-1(1-100%);   1%=2.3mm/s</td></tr></tbody></table>
-{% endtab %}
+**Response**
 
-{% tab title="Response" %}
 ```
 code=0->success;
 code!=0->Failed, refer to xarm_api_code;
 ```
-{% endtab %}
-{% endtabs %}
+
 
 ### 3. Code Example
 

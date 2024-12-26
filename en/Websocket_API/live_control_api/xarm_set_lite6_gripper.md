@@ -8,8 +8,7 @@ Button:\[Live Control] - \[End Effector]- open/ close/ stop
 
 ### 2. Request & Response
 
-{% tabs %}
-{% tab title="Message" %}
+**Message**
 ```json
 {
     "cmd": "xarm_set_lite6_gripper",
@@ -19,19 +18,16 @@ Button:\[Live Control] - \[End Effector]- open/ close/ stop
     "id": "1"
 }
 ```
-{% endtab %}
+**Request**
 
-{% tab title="Request" %}
 <table data-full-width="true"><thead><tr><th width="136">Name</th><th width="85">Type</th><th width="144">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>op</td><td>String</td><td>Yes</td><td><p>open: Open the gripper Lite;</p><p>close: Close the gripper Lite;</p><p>stop: Stop the gripper Lite;</p></td></tr></tbody></table>
-{% endtab %}
+**Response**
 
-{% tab title="Response" %}
 ```
 code=0->success;
 code!=0->Failed, refer to xarm_api_code;
 ```
-{% endtab %}
-{% endtabs %}
+
 
 ### 3. Code Example
 

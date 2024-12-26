@@ -6,27 +6,24 @@ To stop the arm immediately.
 
 ### 2. Request & Response
 
-{% tabs %}
-{% tab title="Message" %}
+**Message**
+
 ```json
 {
     "cmd": "xarm_move_step_over",
     "id":"1"
 }
 ```
-{% endtab %}
+**Request**
 
-{% tab title="Request" %}
 <table data-full-width="true"><thead><tr><th>Name</th><th>Type</th><th>Required fields</th><th>Description</th></tr></thead><tbody><tr><td>/</td><td></td><td></td><td></td></tr></tbody></table>
-{% endtab %}
+**Response**
 
-{% tab title="Response" %}
 ```
 code=0->success;
 code!=0->Failed, refer to xarm_api_code;
 ```
-{% endtab %}
-{% endtabs %}
+
 
 ### 3. Code Example
 

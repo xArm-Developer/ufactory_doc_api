@@ -8,8 +8,8 @@ Button: \[Live Control] - Real/Sim
 
 ### 2. Request & Response
 
-{% tabs %}
-{% tab title="Message" %}
+**Message**
+
 ```json
 {
     "cmd": "xarm_set_simulation_robot",
@@ -19,19 +19,16 @@ Button: \[Live Control] - Real/Sim
     "id": "1"
 }
 ```
-{% endtab %}
+**Request**
 
-{% tab title="Request" %}
 <table data-full-width="true"><thead><tr><th width="136">Name</th><th width="85">Type</th><th width="144">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>on_off</td><td>bool</td><td>Yes</td><td><p>True: enable;</p><p>False: disable;</p></td></tr></tbody></table>
-{% endtab %}
+**Response**
 
-{% tab title="Response" %}
 ```
 code=0->success;
 code!=0->Failed, refer to xarm_api_code;
 ```
-{% endtab %}
-{% endtabs %}
+
 
 ### 3. Code Example
 
