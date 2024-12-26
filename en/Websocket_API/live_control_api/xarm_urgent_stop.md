@@ -19,11 +19,12 @@ Button: \[Stop]
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="136">Name</th><th width="85">Type</th><th width="144">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>String</td><td>Yes</td><td>Request ID</td></tr></tbody></table>
+
+
 **Response**
 
 ```
 code=0->success;
 code!=0->Failed, refer to xarm_api_code;
 ```
-
 

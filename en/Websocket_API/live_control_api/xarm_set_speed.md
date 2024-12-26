@@ -19,6 +19,8 @@ Set the speed percent of \[Live Control] page.
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="136">Name</th><th width="85">Type</th><th width="144">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>percent</td><td>int</td><td>Yes</td><td>set the speed percent of the Arm 0.01-1(1-100%);   1%=2.3mm/s</td></tr></tbody></table>
+
+
 **Response**
 
 ```

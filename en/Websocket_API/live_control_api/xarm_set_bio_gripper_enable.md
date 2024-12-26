@@ -22,11 +22,13 @@ Button: \[Live Control] - \[End Effector] - \[Bio Gripper]- Enable.
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="136">Name</th><th width="85">Type</th><th width="144">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>enable</td><td>bool</td><td>Yes</td><td><p>True: Enable;</p><p>False: Disable;</p></td></tr></tbody></table>
+
+
+
 **Response**
 
 ```
 code=0->success;
 code!=0->Failed, refer to xarm_api_code;
 ```
-
 

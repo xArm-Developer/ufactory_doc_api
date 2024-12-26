@@ -36,6 +36,8 @@ Button:&#x20;
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="136">Name</th><th width="85">Type</th><th width="140">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>I</td><td>String</td><td>Yes</td><td>Joint angle of Joint1</td></tr><tr><td>J</td><td>String</td><td>Yes</td><td>Joint angle of Joint2</td></tr><tr><td>k</td><td>String</td><td>Yes</td><td>Joint angle of Joint3</td></tr><tr><td>M</td><td>String</td><td>Yes</td><td>Joint angle of Joint4</td></tr><tr><td>N</td><td>String</td><td>Yes</td><td>Joint angle of Joint5</td></tr><tr><td>O</td><td>String</td><td>Yes</td><td>Joint angle of Joint6</td></tr><tr><td>R</td><td>String</td><td>Yes</td><td>Joint angle of Joint7</td></tr><tr><td>wait</td><td>bool</td><td>No</td><td>wait or not</td></tr><tr><td>isControl</td><td>bool</td><td>Yes</td><td>whether start the program by Blockly or not</td></tr><tr><td>isClickMove</td><td>bool</td><td>Yes</td><td>whether click 'Move' in Blockly or not</td></tr><tr><td>Module</td><td>String</td><td>No</td><td>whether the wait=True in Blockly or not</td></tr></tbody></table>
+
+
 **Response**
 
 ```
@@ -57,7 +59,7 @@ self.last_move_client = client
 code = GLOBAL.XArm.xarm.set_servo_angle(angle=angles, speed=mvvelo, mvacc=mvacc, mvtime=mvtime,is_radian=False, wait=False, radius=radius)
 ```
 
-#### front\_end
+#### xxxxxxxxxx self.switch_mode_lite6 = (mode, callback) => {  const params = window.GlobalConstant.INIT_CMD_PARAMS_COMMON_DATA();  Object.assign(params.data, {    mode: mode,    status: mode === 2 ? 1 : 0  });  self.sendCmd(window.GlobalConstant.SWITCH_MODE_LITE6, params, (dict) => {    if (callback) {      callback(dict);    }  });};javascript
 
 ```javascript
 self.moveJoint = (positions, index, isWait, callback, isControl, modName, isClickMove) => {
