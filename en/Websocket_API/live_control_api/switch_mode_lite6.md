@@ -24,6 +24,7 @@ Button: Manual mode.
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="136">Name</th><th width="85">Type</th><th width="144">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>mode</td><td>int</td><td>No</td><td><p>0:position mode;</p><p>2:manual mode; </p><p>It is a required field if Studio ≤2.1.0</p></td></tr><tr><td>version</td><td>String</td><td>Yes</td><td>robot model, pass 'Lite6'</td></tr><tr><td>status</td><td>int</td><td>Yes</td><td><p>0: close manual mode; </p><p>1: open manual mode;</p></td></tr></tbody></table>
+
 **Response**
 
 ```
