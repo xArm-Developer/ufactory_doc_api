@@ -13,10 +13,14 @@
 
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 01    U16, Length 
-//01       U8, Register
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 01    U16, Length
+> 
+> //01       U8, Register
+> 
 
 
 
@@ -27,16 +31,27 @@
 
 > Response Description:
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 2A    U16, Length 
-//01       U8, Register
-//00       U8, State
-//36 2C 36 2C   U8, Type, Axes, 6,6,
-//58 49 31 32 30 32 2C    U8, xArm Version XI1202,
-//41 43 31 33 30 32 2C    U8, Control Box Version AC1302,
-//76 31 2E 31 32 2E 31 30    U8, Firmware Version v1.12.10
-//00 00 00 00 00 00 00 00 00 00 00 00 00 00   U8, null  
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 2A    U16, Length
+>
+> 
+> //01       U8, Register
+> 
+> //00       U8, State
+> 
+> //36 2C 36 2C   U8, Type, Axes, 6,6,
+> 
+> //58 49 31 32 30 32 2C    U8, xArm Version XI1202,
+> 
+> //41 43 31 33 30 32 2C    U8, Control Box Version AC1302,
+> 
+> //76 31 2E 31 32 2E 31 30    U8, Firmware Version v1.12.10
+> 
+> //00 00 00 00 00 00 00 00 00 00 00 00 00 00   U8, null
+> 
 
 ---
 
@@ -54,10 +69,14 @@
 
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 01    U16, Length 
-//02       U8, Register
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 01    U16, Length
+> 
+> //02       U8, Register
+> 
 
 
 
@@ -69,14 +88,22 @@
 
 > Response Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 2A    U16, Length 
-//02       U8, Register
-//00       U8, State
-//58 49 31 32 30 32 30 34 32 30 31 42 30 32 00      U8, XI120204201B02
-//41 43 31 33 30 32 30 32 42 30 32 4C 30 32 0A      U8, AC130202B02L02
-//00 00 00 00 00 00 00 00 00 00     U8, null
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 2A    U16, Length
+> 
+> //02       U8, Register
+> 
+> //00       U8, State
+> 
+> //58 49 31 32 30 32 30 34 32 30 31 42 30 32 00      U8, XI120204201B02
+> 
+> //41 43 31 33 30 32 30 32 42 30 32 4C 30 32 0A      U8, AC130202B02L02
+> 
+> //00 00 00 00 00 00 00 00 00 00     U8, null
+> 
 
 ---
 
@@ -92,10 +119,14 @@
 ```
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 01    U16, Length 
-//04       U8, Register
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 01    U16, Length
+> 
+> //04       U8, Register
+> 
 
 
 
@@ -106,11 +137,16 @@
 ```
 > Response Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 02    U16, Length 
-//04       U8, Register
-//10       U8, State
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 02    U16, Length
+> 
+> //04       U8, Register
+> 
+> //10       U8, State
+> 
 
 ---
 
@@ -127,10 +163,14 @@
 
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 01    U16, Length 
-//05       U8, Register
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 01    U16, Length
+> 
+> //05       U8, Register
+> 
 
 
 
@@ -142,12 +182,18 @@
 
 > Response Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 03    U16, Length 
-//05       U8, Register
-//00       U8, State
-//00       U8, 0: Theoretical joint torque 1: Actual current of servo
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 03    U16, Length
+> 
+> //05       U8, Register
+> 
+> //00       U8, State
+> 
+> //00       U8, 0: Theoretical joint torque 1: Actual current of servo
+> 
 
 ---
 
@@ -162,11 +208,16 @@
 ```
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 02    U16, Length 
-//06       U8, Register
-//06       U8, Parameter 1(target joint:6)
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 02    U16, Length
+> 
+> //06       U8, Register
+> 
+> //06       U8, Parameter 1(target joint:6)
+> 
 
 
 
@@ -176,12 +227,18 @@
 ```
 > Response Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 06    U16, Length 
-//06       U8, Register
-//10       U8, State
-//00 00 00 00    U8, Parameter 1(Radius of rotation)
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 06    U16, Length
+> 
+> //06       U8, Register
+> 
+> //10       U8, State
+>
+> //00 00 00 00    U8, Parameter 1(Radius of rotation)
+> 
 
 ---
 
@@ -197,10 +254,14 @@
 
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 01    U16, Length 
-//07       U8,  Register
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 01    U16, Length
+> 
+> //07       U8,  Register
+>
 
 
 
@@ -211,12 +272,18 @@
 
 > Response Description
 >
-//00 01        U16, Transaction ID
-//00 02        U16, Protocol Identifier
-//00 06        U16, Length 
-//07           U8, Register
-//00           U8, State
-//00 00 00 01  U32, bit0: Bypassing Singularities, bit1~31: Reserved.
+> //00 01        U16, Transaction ID
+> 
+> //00 02        U16, Protocol Identifier
+> 
+> //00 06        U16, Length
+> 
+> //07           U8, Register
+> 
+> //00           U8, State
+> 
+> //00 00 00 01  U32, bit0: Bypassing Singularities, bit1~31: Reserved.
+> 
 
 ---
 
@@ -232,11 +299,17 @@
 
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 02    U16, Length 
-//0A       U8,  Register
-//01       U8,  1:remote shut down the operating system temporarily 2:reboot
+> //00 01    U16, Transaction ID
+> 
+>
+> //00 02    U16, Protocol Identifier
+> 
+> //00 02    U16, Length
+> 
+> //0A       U8,  Register
+> 
+> //01       U8,  1:remote shut down the operating system temporarily 2:reboot
+> 
 
 
 
@@ -247,10 +320,15 @@
 
 > Response Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 02    U16, Length 
-//0A       U8, Register
-//10       U8, State
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 02    U16, Length
+> 
+> //0A       U8, Register
+> 
+> //10       U8, State
+> 
 
 ---
