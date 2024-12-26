@@ -17,6 +17,7 @@ To stop the arm immediately.
 **Request**
 
 <table data-full-width="true"><thead><tr><th>Name</th><th>Type</th><th>Required fields</th><th>Description</th></tr></thead><tbody><tr><td>/</td><td></td><td></td><td></td></tr></tbody></table>
+
 **Response**
 
 ```
