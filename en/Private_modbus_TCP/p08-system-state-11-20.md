@@ -8,9 +8,8 @@
 The above operations will terminate the ongoing movement of the robotic arm and clear the cache commands, which is the same as the STOP state.
 
 ---
-
-* Request:
 ```
+//Request:
 00 01 00 02 00 03 0B 08 01
 ```
 
@@ -39,7 +38,6 @@ The above operations will terminate the ongoing movement of the robotic arm and 
 
 
 
-
 ```
 //Response:
 00 01 00 02 00 02 0B 10
@@ -47,11 +45,16 @@ The above operations will terminate the ongoing movement of the robotic arm and 
 
 > Response Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 02    U16, Length 
-//0B      U8, Register
-//10      U8, State
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 02    U16, Length
+> 
+> //0B      U8, Register
+> 
+> //10      U8, State
+> 
 
 
 ## Motion state setting
@@ -65,15 +68,22 @@ The above operations will terminate the ongoing movement of the robotic arm and 
 
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 02    U16, Length 
-//0C      U8, Register
-//00      U8, 
-Motion Sate
-0: Enter the motion mode
-3: Suspend the current motion(Do not clear controller cache)
-4: Stop all current motion (restart the system,clear controller cache)
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 02    U16, Length
+> 
+> //0C      U8, Register
+> 
+> //00      U8, Motion Sate
+> 
+> 0: Enter the motion mode
+> 
+> 3: Suspend the current motion(Do not clear controller cache)
+> 
+> 4: Stop all current motion (restart the system,clear controller cache)
+> 
 
 
 
@@ -86,11 +96,16 @@ Motion Sate
 
 > Response Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 02    U16, Length 
-//0C      U8, Register
-//00      U8, State
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 02    U16, Length
+> 
+> //0C      U8, Register
+> 
+> //00      U8, State
+> 
 
 ---
 
@@ -105,10 +120,14 @@ Motion Sate
 
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 01    U16, Length 
-//0D       U8, Register
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 01    U16, Length
+> 
+> //0D       U8, Register
+> 
 
 
 
@@ -120,17 +139,26 @@ Motion Sate
 
 > Response Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 01    U16, Length 
-//0D       U8, Register
-//02       U8,
-Motion state：
-1：In motion
-2：Sleep
-3：Suspend
-4：Stop
-5： System reset
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 01    U16, Length
+> 
+> //0D       U8, Register
+> 
+> //02       U8,Motion state：
+> 
+> 1：In motion
+> 
+> 2：Sleep
+> 
+> 3：Suspend
+> 
+> 4：Stop
+> 
+> 5： System reset
+> 
 
 ---
 
@@ -146,9 +174,13 @@ Motion state：
 > Request Description
 >
 > //00 01    U16, Transaction ID
+> 
 > //00 02    U16, Protocol Identifier
-> //00 01    U16, Length 
+> 
+> //00 01    U16, Length
+> 
 > //0E       U8, Register
+> 
 
 
 
@@ -159,12 +191,18 @@ Motion state：
 
 > Response Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 04    U16, Length 
-//0E       U8, Register
-//00       U8, State
-//00 00    U16, The number of commands in the buffer
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 04    U16, Length
+> 
+> //0E       U8, Register
+> 
+> //00       U8, State
+> 
+> //00 00    U16, The number of commands in the buffer
+> 
 
 
 ---
@@ -180,10 +218,14 @@ Motion state：
 
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 01    U16, Length 
-//0F       U8, Register
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 01    U16, Length
+>  
+> //0F       U8, Register
+> 
 
 
 
@@ -194,13 +236,20 @@ Motion state：
 
 >Response Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 04    U16, Length 
-//0F       U8, Register
-//00       U8, State
-//00       U8, Error code
-//00       U8, Warning code
+> //00 01    U16, Transaction ID
+>
+> //00 02    U16, Protocol Identifier
+>
+> //00 04    U16, Length
+>
+> //0F       U8, Register
+>
+> //00       U8, State
+>
+> //00       U8, Error code
+>
+> //00       U8, Warning code
+>
 
 ---
 
@@ -220,10 +269,14 @@ The above operations will terminate the ongoing movement of the robotic arm and 
 
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 01    U16, Length 
-//10       U8, Register
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 01    U16, Length
+> 
+> //10       U8, Register
+> 
 
 
 
@@ -233,11 +286,16 @@ The above operations will terminate the ongoing movement of the robotic arm and 
 ```
 > Response Description
 > 
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 02    U16, Length 
-//10       U8, Register
-//00       U8, State
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 02    U16, Length
+> 
+> //10       U8, Register
+> 
+> //00       U8, State
+> 
 
 
 ---
@@ -252,10 +310,14 @@ The above operations will terminate the ongoing movement of the robotic arm and 
 ```
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 01    U16, Length 
-//11       U8, Register
+> //00 01    U16, Transaction ID
+>  
+> //00 02    U16, Protocol Identifier
+> 
+> //00 01    U16, Length
+> 
+> //11       U8, Register
+> 
 
 
 
@@ -266,11 +328,16 @@ The above operations will terminate the ongoing movement of the robotic arm and 
 
 > Response Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 02    U16, Length 
-//11       U8, Register
-//00       U8, State
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 02    U16, Length
+> 
+> //11       U8, Register
+> 
+> //00       U8, State
+> 
 
 
 ---
@@ -285,12 +352,18 @@ The above operations will terminate the ongoing movement of the robotic arm and 
 ```
 > Request Description
 > 
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 03    U16, Length 
-//12       U8, Register
-//08       U8,  1~6: Select motor joint separately  8: Select all joints
-//01       U8,  0: Disable Joint   1: Unlock Joint
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 03    U16, Length
+> 
+> //12       U8, Register
+> 
+> //08       U8,  1~6: Select motor joint separately  8: Select all joints
+> 
+> //01       U8,  0: Disable Joint   1: Unlock Joint
+> 
 
 
 
@@ -301,11 +374,16 @@ The above operations will terminate the ongoing movement of the robotic arm and 
 ```
 > Response Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 02    U16, Length 
-//12       U8, Register
-//10       U8, State
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 02    U16, Length
+> 
+> //12       U8, Register
+> 
+> //10       U8, State
+> 
 
 
 ---
@@ -326,20 +404,34 @@ This operation will terminate the ongoing movement of the robot and clear the ca
 
 > Request Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 03    U16, Length 
-//13       U8, Register
-//00       U8, Motion mode
-0: Position control mode
-1: Servo motion mode
-2: Joint teaching mode (manual mode)
-3: Cartesian teaching mode (not yet available)
-4: Joint velocity control mode
-5: Cartesian velocity control mode
-6: Joint online trajectory planning mode
-7: Cartesian online trajectory planning mode
-//00       U8, Payload detection before enabling manual mode. 0 is ON, 1 is OFF.
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 03    U16, Length
+> 
+> //13       U8, Register
+> 
+> //00       U8, Motion mode
+> 
+> 0: Position control mode
+> 
+> 1: Servo motion mode
+> 
+> 2: Joint teaching mode (manual mode)
+> 
+> 3: Cartesian teaching mode (not yet available)
+> 
+> 4: Joint velocity control mode
+> 
+> 5: Cartesian velocity control mode
+> 
+> 6: Joint online trajectory planning mode
+> 
+> 7: Cartesian online trajectory planning mode
+> 
+> //00       U8, Payload detection before enabling manual mode. 0 is ON, 1 is OFF.
+> 
 
 
 
@@ -349,8 +441,13 @@ This operation will terminate the ongoing movement of the robot and clear the ca
 ```
 > Response Description
 >
-//00 01    U16, Transaction ID
-//00 02    U16, Protocol Identifier
-//00 02    U16, Length 
-//13       U8, Register
-//00       U8, State
+> //00 01    U16, Transaction ID
+> 
+> //00 02    U16, Protocol Identifier
+> 
+> //00 02    U16, Length
+> 
+> //13       U8, Register
+> 
+> //00       U8, State
+> 
