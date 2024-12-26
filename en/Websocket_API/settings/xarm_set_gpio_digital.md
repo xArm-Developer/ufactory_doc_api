@@ -10,7 +10,7 @@ Button: \[Blockly] - \[Tool IO] - Set
 
 **Message**
 
-````json
+```json
 
 {
     "cmd": "xarm_set_gpio_digital",
@@ -21,7 +21,7 @@ Button: \[Blockly] - \[Tool IO] - Set
     "id": "1"
 }
 
-````
+```
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="120">Name</th><th width="79">Type</th><th width="135">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>ionum</td><td>int</td><td>Yes</td><td>TO0-TO1</td></tr><tr><td>value</td><td>int</td><td>Yes</td><td><p>0: low level;</p><p>1: high level;</p></td></tr><tr><td>delay</td><td>int</td><td>No</td><td><p>delay time;</p><p>0: set it immediately</p></td></tr></tbody></table>

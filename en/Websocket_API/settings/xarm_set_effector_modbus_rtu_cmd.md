@@ -10,7 +10,7 @@ Button: \[Settings] - \[Externals] - \[Modbus RTU] - Send.
 
 **Message**
 
-````json
+```json
 
 {
     "cmd": "xarm_set_effector_modbus_rtu_cmd",
@@ -27,7 +27,7 @@ Button: \[Settings] - \[Externals] - \[Modbus RTU] - Send.
     "id": "1"
 }
 
-````
+```
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="120">Name</th><th width="79">Type</th><th width="135">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>isloop</td><td>bool</td><td>No</td><td>whether to send Modbus commands cyclically. </td></tr><tr><td>mdb_info</td><td>Array</td><td>Yes</td><td><p>command information. For example: [{'checked': True, 'note': {'cn':'','en': ''},'delay':'','cmd':'00 01 00 02'}] </p><p>('checked'- whether check the format is correct or not；'note'-{'cn':'','en': ''}'delay'-delay time'cmd'-modbus command)</p></td></tr><tr><td>end_fmv</td><td>String</td><td>Yes</td><td>The firmware version of end IO board, e.g.‘2.5.9’</td></tr><tr><td>buadrate</td><td>int</td><td>Yes</td><td>modbus baud rate(4800-2500000)</td></tr><tr><td>is_stop</td><td>int</td><td>No</td><td>wheter to stop sending the command</td></tr><tr><td>host_id</td><td>int</td><td>Yes</td><td><p>Host ID. </p><p>11: linear motor</p><p>10: controller 485</p><p>9: tool end 485</p></td></tr></tbody></table>

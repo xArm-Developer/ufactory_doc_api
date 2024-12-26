@@ -8,10 +8,10 @@ Button: \[Settings] - \[Motion]
 
 ### 2. Request & Response
 
-{% tabs %}
-{% tab title="Message" %}
-````json
-```
+
+**Message**
+```json
+
 {
     "cmd": "xarm_set_motion_config",
     "data": {
@@ -27,20 +27,17 @@ Button: \[Settings] - \[Motion]
     "id": "1"
 }
 ```
-````
-{% endtab %}
 
-{% tab title="Request" %}
+**Request**
+
 <table data-full-width="true"><thead><tr><th width="142">Name</th><th width="79">Type</th><th width="135">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>tcpAcc</td><td>int</td><td>No</td><td>Line Motion Acceleration(1-50000)</td></tr><tr><td>jointAcc</td><td>int</td><td>No</td><td>Joint Motion Acceleration(1-1146)</td></tr><tr><td>posStep</td><td>Float</td><td>No</td><td>Line Motion Position Step(0.1-100)</td></tr><tr><td>attitudeStep</td><td>Float</td><td>No</td><td>Line Motion Attitude Step(0.1-100)</td></tr><tr><td>jointStep</td><td>Float</td><td>No</td><td>Joint Motioin Step(0.1-20)</td></tr><tr><td>collSens</td><td>int</td><td>No</td><td>Collision Sensitivity(0-5)</td></tr><tr><td>teachSens</td><td>int</td><td>No</td><td>Teach Sensitivity(1-5)</td></tr><tr><td>initPos</td><td>Array</td><td>No</td><td>Initial position（[0,0,0,0,0,0]）</td></tr></tbody></table>
-{% endtab %}
 
-{% tab title="Response" %}
+**Response**
 ```
 code=0->success;
 code!=0->Failed, refer to xarm_api_code;
 ```
-{% endtab %}
-{% endtabs %}
+
 
 ### 3. Code Example
 

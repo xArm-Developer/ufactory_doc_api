@@ -10,7 +10,7 @@ Button: \[Blockly] - \[Controller IO] - Set AO
 
 **Message**
 
-````json
+```json
 
 {
     "cmd": "xarm_set_cgpio_analog",
@@ -21,7 +21,7 @@ Button: \[Blockly] - \[Controller IO] - Set AO
     "id": "1"
 }
 
-````
+```
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="120">Name</th><th width="79">Type</th><th width="135">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>ionum</td><td>int</td><td>Yes</td><td>AO0-AO1</td></tr><tr><td>value</td><td>Float</td><td>Yes</td><td>value(0-10V)</td></tr></tbody></table>

@@ -9,7 +9,7 @@ Set TCP/Joint acceleration.
 
 **Message**
 
-````json
+```json
 
 {
     "cmd": "xarm_set_jerk",
@@ -20,7 +20,7 @@ Set TCP/Joint acceleration.
     "id": "1"
 }
 
-````
+```
 
 
 **Request**
@@ -34,6 +34,5 @@ Set TCP/Joint acceleration.
 code=0->success;
 code!=0->Failed, refer to xarm_api_code;
 ```
-
 
 ![](assets/image (4).png)

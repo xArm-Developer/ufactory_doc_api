@@ -8,7 +8,7 @@ Get whether the 'bypassing singularities' option is turned on.
 
 **Message**
 
-````json
+```json
 
 {
     "cmd": "xarm_get_approx_motion",
@@ -16,7 +16,7 @@ Get whether the 'bypassing singularities' option is turned on.
     "id": "1"
 }
 
-````
+```
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="206">Name</th><th width="79">Type</th><th width="146">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>/</td><td></td><td></td><td></td></tr></tbody></table>

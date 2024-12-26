@@ -8,10 +8,10 @@ Button: \[Blockly] - \[End effector] - \[xArm vacuum gripper] - open/close
 
 ### 2. Request & Response
 
-{% tabs %}
-{% tab title="Message" %}
-````json
-```
+**Message**
+
+```json
+
 {
     "cmd": "xarm_set_suction_cup",
     "data": {
@@ -21,20 +21,20 @@ Button: \[Blockly] - \[End effector] - \[xArm vacuum gripper] - open/close
     "id": "close_Vgripper"
 }
 ```
-````
-{% endtab %}
 
-{% tab title="Request" %}
+
+
+**Request**
+
 <table data-full-width="true"><thead><tr><th width="142">Name</th><th width="79">Type</th><th width="135">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>on</td><td>bool</td><td>Yes</td><td><p>True: Open</p><p>False: Close</p></td></tr><tr><td>wait</td><td>bool</td><td>Yes</td><td>wait or not</td></tr><tr><td>delay</td><td>int</td><td>No</td><td><p>delay time; </p><p>0: set it immediately</p></td></tr></tbody></table>
-{% endtab %}
 
-{% tab title="Response" %}
+
+**Response**
 ```
 code=0->success;
 code!=0->Failed, refer to xarm_api_code;
 ```
-{% endtab %}
-{% endtabs %}
+
 
 ### 3. Code Example
 

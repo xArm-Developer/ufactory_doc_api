@@ -6,9 +6,9 @@ Get the reduced mode states.
 
 ### 2. Request & Response
 
-{% tabs %}
-{% tab title="Message" %}
-````json
+**Message**
+
+```json
 
 {
     "cmd": "xarm_get_reduced_states",
@@ -16,7 +16,7 @@ Get the reduced mode states.
     "id": "1"
 }
 
-````
+```
 **Request**
 
 
@@ -30,5 +30,4 @@ Get the reduced mode states.
 code=0->success;
 code!=0->Failed, refer to xarm_api_code;
 ```
-
 
