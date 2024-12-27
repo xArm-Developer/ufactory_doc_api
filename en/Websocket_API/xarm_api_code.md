@@ -1,5 +1,5 @@
 ---
-title: xarm\_api\_code
+title: xarm_api_code
 order: 1
 ---
 

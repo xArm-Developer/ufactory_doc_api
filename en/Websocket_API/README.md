@@ -1,9 +1,11 @@
 ---
-title: Preface
+title: Websocket API
 order: 1
 ---
 
-# Preface
+# Websocket API
+
+WebsocketAPI is used for UFactory Studio software.
 
 ### 1. Introduction
 
