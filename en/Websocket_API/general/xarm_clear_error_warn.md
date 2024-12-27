@@ -12,13 +12,16 @@ order: 4
 
 Button: \[Clean error], \[Enable]
 
-### 2. Request & Response
 
+
+### 2. Request & Response
 
 
 **Message**
 
+```json
 
+{
 
     "cmd": "xarm_clear_error_warn",
     
@@ -30,8 +33,9 @@ Button: \[Clean error], \[Enable]
     
     "id": "1"
 
+}
 
-
+```
 
 
 **Request**
@@ -49,6 +53,4 @@ code=0->success;
 code!=0->Failed, refer to xarm_api_code;
 
 ```
-
-
 

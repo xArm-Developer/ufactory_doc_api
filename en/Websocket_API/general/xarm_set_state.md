@@ -18,6 +18,8 @@ Set the robot state.
 
 **Message**
 
+```json
+
 {
 
     "cmd": "xarm_set_state",
@@ -32,10 +34,12 @@ Set the robot state.
 
 }
 
+```
+
+
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="142">Name</th><th width="79">Type</th><th width="144">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>state</td><td>int</td><td>No</td><td><p>robot state. </p><p>0: motion state</p><p>3: pause state</p><p>4: stop state </p></td></tr></tbody></table>
-
 
 
 **Response**

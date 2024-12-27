@@ -9,10 +9,7 @@ order: 3
 ### 1. Introduction
 
 
-
 Clean error.
-
-
 
 ### 2. Request & Response
 
@@ -20,7 +17,10 @@ Clean error.
 
 **Message**
 
+```json
 
+
+{
 
     "cmd": "xarm_clear_error",
     
@@ -28,12 +28,15 @@ Clean error.
     
     "id": "2"
 
+}
+
+```
+
 
 
 **Request**
 
 <table data-full-width="true"><thead><tr><th width="142">Name</th><th width="79">Type</th><th width="144">Required fields</th><th>Description</th></tr></thead><tbody><tr><td>/</td><td></td><td></td><td></td></tr></tbody></table>
-
 
 
 **Response**
@@ -45,8 +48,6 @@ code=0->success;
 code!=0->Failed, refer to xarm_api_code;
 
 ```
-
-
 
 
 

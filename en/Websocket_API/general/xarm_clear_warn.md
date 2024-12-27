@@ -17,12 +17,12 @@ Clean warning.
 ### 2. Request & Response
 
 
-
-
-
 **Message**
 
+```json
 
+
+{
 
     "cmd": "xarm_clear_warn",
     
@@ -30,8 +30,9 @@ Clean warning.
     
     "id": "3"
 
+}
 
-
+```
 
 
 **Request**

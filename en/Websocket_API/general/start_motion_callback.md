@@ -26,7 +26,9 @@ Mainly used for the continuous motion that needs to respond after the movement i
 
 **Message**
 
+```json
 
+{
 
     "cmd": "start_motion_callback",
     
@@ -37,6 +39,11 @@ Mainly used for the continuous motion that needs to respond after the movement i
     },
     
     "id": "callback_1"
+
+}
+
+```
+
 
 
 
@@ -55,7 +62,6 @@ code=0->success;
 code!=0->Failed, refer to xarm_api_code;
 
 ```
-
 
 
 Compatible with: xarm\_move\_joint, xarm\_move\_arc\_line.
