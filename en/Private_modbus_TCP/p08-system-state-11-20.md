@@ -4,7 +4,7 @@
 
 **Register:11(0x0B)**
 
-**warning:**
+**warning**:<br>
 
 The above operations will terminate the ongoing movement of the robotic arm and clear the cache commands, which is the same as the STOP state.
 
@@ -279,7 +279,7 @@ The above operations will terminate the ongoing movement of the robotic arm and 
 
 **Register:16 (0x10)**
 
-**warning:**
+**warning**:<br>
 
 The above operations will terminate the ongoing movement of the robotic arm and clear the cache commands, which is the same as the STOP state.
 
