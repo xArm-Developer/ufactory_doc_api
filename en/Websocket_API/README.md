@@ -1,5 +1,5 @@
 ---
-title: 1.Websocket API
+title: Websocket API
 order: 1
 ---
 
