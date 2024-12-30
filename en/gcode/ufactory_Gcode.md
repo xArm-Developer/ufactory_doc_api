@@ -7,10 +7,10 @@ Description:
 
 UFACTORY Gcode is compatible with LinuxCNC gcode: http://linuxcnc.org/,  and  refers to the RS-274 standard.
 
-Updated: 2024-07-24
-Firmware version:  v2.5.0 or later
-UFACTORY Studio version:  V2.5.0 or later
-TCP port: 504
+Updated: 2024-07-24<br>
+Firmware version:  v2.5.0 or later<br>
+UFACTORY Studio version:  V2.5.0 or later<br>
+TCP port: 504<br>
 
 ---
 

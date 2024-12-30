@@ -1,6 +1,6 @@
 # Terms and Definitions
 
-**Unit Definition**
+## Unit Definition
 
 | Parameter              | Python-SDK     | Blockly        | Communication Protocol |
 | ---------------------- | -------------- | -------------- | ---------------------- |
@@ -14,7 +14,7 @@
 | Joint Acceleration     | °/s²           | °/s²           | rad/s²                 |
 | Joint Jerk             | °/s³           | °/s³           | rad/s³                 |
 
-**Terms and Definitions**
+## Terms and Definitions
 
 ### **Control Box**
 
