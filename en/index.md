@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: StartReady
-      link: /Websocket_API/live_control_api/1.xarm_move_step.html 
+      link: /gcode/ufactory_Gcode.html
     - theme: alt
       text: Github
       link: https://github.com/xArm-Developer/ufactory_doc_api
@@ -20,7 +20,7 @@ features:
       width: 400
       height: 400
       alt: API
-    link: /Websocket_API/live_control_api/1.xarm_move_step.html
+    link: /gcode/ufactory_Gcode.html
     details: UFACTORY Studio API
   # - title: Python SDK
   #   icon: 
