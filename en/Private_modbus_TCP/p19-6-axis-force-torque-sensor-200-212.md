@@ -949,15 +949,12 @@
 >
 > 00,00,00,00
 >
-
 > //00
 >
 > Coordinate of impedance control mode
 >
-
 > //00,00,00,00,00,00	FP32, Impedance control vector
 >
-
 > //00,00,00,00	FP32,
 >
 > 00,00,00,00
@@ -974,7 +971,6 @@
 >
 > Moment of inertia
 >
-
 > //00,00,00,00	FP32,
 >
 > 00,00,00,00
@@ -989,8 +985,7 @@
 >
 > Stiffness coefficient
 >
-
-> <strong>//00,00,00,00	FP32,
+> //00,00,00,00	FP32,
 >
 > 00,00,00,00
 >
@@ -1004,13 +999,10 @@
 >
 > Damping coefficient
 >
-
 > //00    U8, Coordinate of force control mode
 >
-
-> <strong>//00,00,00,00,00,00	FP32, Force Control vector
+> //00,00,00,00,00,00	FP32, Force Control vector
 >
-
 > //00,00,00,00	FP32,
 >
 > 00,00,00,00
@@ -1025,7 +1017,6 @@
 >
 > Force vector
 >
-
 > //00,00,00,00	FP32,
 >
 > 00,00,00,00
@@ -1040,7 +1031,6 @@
 >
 > Reserve
 >
-
 > //00,00,00,00	FP32,
 >
 > 00,00,00,00
@@ -1055,8 +1045,6 @@
 >
 > KP: Proportional gain
 >
-
-
 > //00,00,00,00	FP32,
 >
 > 00,00,00,00
@@ -1071,7 +1059,6 @@
 >
 > KI: Integral gain
 >
-
 > //00,00,00,00	FP32,
 >
 > 00,00,00,00

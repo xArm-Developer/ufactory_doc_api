@@ -46,9 +46,9 @@
 >
 > ** 0: Normal.
 >
-> <strong>** 1: The server has error message.
+> ** 1: The server has error message.
 >
-> <strong>** 3: Communication failure.
+> ** 3: Communication failure.
 >
 > //00       U8, Paramter 2, Joint 1 servo state=Normal
 >
