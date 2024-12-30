@@ -4,7 +4,7 @@
 
 **Respons:**
 
-```subunit
+```
 result:
     'ok' -> 成功
     'Invalid Args'无效的参数 -> 失败
