@@ -34,7 +34,7 @@ TCP port: 504
 
 * Code Example
 
-```gcode
+```
 G0 X300 Y100 Z200 A180 B0 C0        ;move to [300,100,200,180,0,0]
 G4 P5                               ;sleep 5s
 G1 X300 Y100 Z350 A180 B0 C0 F30000 ;move to [300,100,200,180,0,0], speed=500mm/s
@@ -117,7 +117,7 @@ You can debug and check more examples via 'UFACTORY Studio-Gcode' page.
 
 * Code Example
 
-```gcode
+```
 M62 P1            ;set CO1 to high level, wait=True
 M64 P15           ;set DO7 to high level, wait=False
 M67 E0 Q10        ;set AO0 to 10V, wait=True
