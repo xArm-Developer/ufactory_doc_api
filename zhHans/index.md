@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /zhHans/gcode/README.html
+      link: /zhHans/gcode/ufactory_Gcode.html
     - theme: alt
       text: Github
       link: https://github.com/xArm-Developer/ufactory_doc_api
@@ -19,7 +19,7 @@ features:
       width: 400
       height: 400
       alt: API
-    link: /zhHans/gcode/README.html
+    link: /zhHans/gcode/ufactory_Gcode.html
     details: UFACTORY Studio API
   # - title: Python SDK
   #   icon: 
