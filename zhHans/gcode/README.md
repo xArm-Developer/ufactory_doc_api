@@ -74,7 +74,11 @@ TCP 端口：504
 ### 注意
 
 1. 端口暂时使用 504
-2. 回复暂时有 3 字节，第一个字节为控制器错误码 , 第二个是控制器状态码，第三个字节为解 析 Gcode 的返回值(非 0 表示该命令不支持或格式不对)
+2. 回复暂时有 5 字节： 
+* byte0: Gcode命令返回值,0表示成功(非 0 表示该命令不支持或格式不对)
+* byte1: 模式和状态
+* byte2: 错误码
+* byte3 & byte4: 保留
 3. 建议每次发一行非空数据（带换行符），固件按行回复的 sock.send(b'G0 X300\n')
 4. 要接收回复，不然久了缓冲区会满 sock.recv(10)
  
@@ -82,21 +86,32 @@ TCP 端口：504
 ## 示例
 
 ```python
-1 import socket
-2 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-3 sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-4 sock.setblocking(True)
-5 sock.connect(('192.168.1.67', 504))
-6
-7 def send_and_recv(data):
-8     for line in data.split('\n'):
-9         line = line.strip()
-10        if not line:
-11            continue
-12        sock.send(line.encode('utf-8', 'replace') + b'\n')
-13        err, code = sock.recv(2)
-14        if code != 0 or err != 0:
-15            print('code: {}, err: {}, cmd: {}'.format(code, err, line))
-16 # move x to x=500mm, speed= 10000 mm/min
-17 send_and_recv('G1 X500 F10000')
+
+import socket
+import time
+
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+sock.setblocking(True)
+sock.connect(('192.168.1.240', 504))
+
+def send_and_recv(data):
+    for line in data.split('\n'):
+        line = line.strip()
+        if not line:
+            continue
+        sock.send(line.encode('utf-8', 'replace') + b'\n')
+        ret = sock.recv(5)
+        print(ret)
+        code, mode_state, err = ret[0:3]
+        print(code,err)
+        state, mode = mode_state & 0x0F, mode_state >> 4
+        print(state)
+        cmdnum = ret[3] << 8 | ret[4]
+        if code != 0 or state >= 4 or err > 0:
+            print('code: {}, mode: {}, state: {}, err: {}, cmdnum: {}, cmd: {}'.format(code, mode, state, err, cmdnum, line))
+            
+# move x to x=500mm, speed= 10000 mm/min
+send_and_recv('G1 X400 F10000')
+
 ```
