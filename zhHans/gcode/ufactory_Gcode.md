@@ -1,8 +1,6 @@
 ---
----
 title: UFACTORY Gcode
 order: 1
----
 ---
 
 # UFACTORY Gcode
