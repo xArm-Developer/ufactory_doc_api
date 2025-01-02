@@ -1,6 +1,6 @@
 ---
 title: xarm_switch_mode
-order: 11
+order: 10
 ---
 
 # xarm\_switch\_mode

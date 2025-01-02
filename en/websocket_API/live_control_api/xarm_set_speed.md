@@ -1,6 +1,6 @@
 ---
 title: xarm_set_speed
-order: 10
+order: 8
 ---
 
 # xarm\_set\_speed

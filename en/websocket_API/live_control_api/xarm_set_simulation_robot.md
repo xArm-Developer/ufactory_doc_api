@@ -1,6 +1,6 @@
 ---
 title: xarm_set_simulation_robot
-order: 9
+order: 7
 ---
 
 # xarm\_set\_simulation\_robot

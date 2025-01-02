@@ -1,6 +1,6 @@
 ---
 title: xarm_move_joint
-order: 3
+order: 4
 ---
 
 # xarm\_move\_joint

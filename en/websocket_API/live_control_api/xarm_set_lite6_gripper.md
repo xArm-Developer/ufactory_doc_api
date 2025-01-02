@@ -1,6 +1,6 @@
 ---
 title: xarm_set_lite6_gripper
-order: 8
+order: 9
 ---
 
 # xarm\_set\_lite6\_gripper

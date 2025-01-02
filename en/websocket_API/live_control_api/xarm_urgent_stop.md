@@ -1,6 +1,6 @@
 ---
 title: xarm_urgent_step
-order: 12
+order: 6
 ---
 
 # xarm\_urgent\_stop

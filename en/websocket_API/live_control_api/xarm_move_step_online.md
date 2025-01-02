@@ -1,6 +1,6 @@
 ---
 title: xarm_move_step_online
-order: 4
+order: 3
 ---
 
 # xarm\_move\_step\_online

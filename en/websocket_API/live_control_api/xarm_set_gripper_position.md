@@ -1,6 +1,6 @@
 ---
 title: xarm_set_gripper_position
-order: 7
+order: 12
 ---
 
 # xarm\_set\_gripper\_position
