@@ -1,9 +1,9 @@
 ---
-title: Websocket API
+title: websocket API
 order: 1
 ---
 
-# Websocket API
+# websocket API
 
 WebsocketAPI is used for UFactory Studio software.
 
