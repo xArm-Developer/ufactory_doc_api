@@ -1,6 +1,6 @@
 ---
 title: xarm_move_circle
-order: 7
+order: 2
 ---
 # xarm_move_circle
 

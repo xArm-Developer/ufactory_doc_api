@@ -1,6 +1,6 @@
 ---
 title: xarm_set_blockly_init
-order: 8
+order: 3
 ---
 # xarm\_set\_blockly\_init
 

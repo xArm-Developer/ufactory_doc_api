@@ -1,6 +1,6 @@
 ---
 title: get_app_info
-order: 3
+order: 6
 ---
 # get_app_info
 
