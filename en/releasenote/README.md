@@ -26,4 +26,4 @@ Recommended matching versions are listed below:
 
 FAQ:&#x20;
 
-[How to update the firmware and UFactory Studio of Robotic Arm?](https://app.gitbook.com/s/xqpSs3BbFPFzgUjBqYuO/faq/how-to-update-the-firmware-and-ufactory-studio-of-robotic-arm)
+[How to update the firmware and UFactory Studio of Robotic Arm?](https://docs.ufactory.cc/support_articles/software/how-to-update-the-firmware-and-ufactory-studio-of-robotic-arm)
