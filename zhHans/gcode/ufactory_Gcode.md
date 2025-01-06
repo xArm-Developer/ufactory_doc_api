@@ -5,6 +5,7 @@ order: 1
 
 # UFACTORY Gcode
 
+UFACTORY Gcode指令兼容 Linux CNC gcode http://linuxcnc.org/， 参考RS-274标准进行开发。
 更新时间：2024-07-24
 
 固件版本：≥ v2.5.0
