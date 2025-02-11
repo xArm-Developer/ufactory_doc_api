@@ -13,7 +13,7 @@
 
 ### 离线包下载
 
-* 固件
+* 固件&studio
 
 &#x20;         xArm系列， UFactory 850：[2.5.0](https://share.weiyun.com/cL2iMSAm) [v2.4.0](https://pan.baidu.com/s/1qavlHFxlz-7KM0zXe1-dCw?pwd=ufuf)   [v2.3.0](https://pan.baidu.com/s/17FaNZwgOjqQegq4K5m6PoQ?pwd=ufuf#list/path=%2F)    [ v2.2.0](https://pan.baidu.com/s/1IDni7Oa0CaTX-8GbREgh-A?pwd=ufuf)     [v2.1.0](https://pan.baidu.com/s/1Zev3FKiHnaXLhcEC0mbV8A?pwd=ufuf)     [v2.0.0](https://pan.baidu.com/s/1R7OQVafl52jl4WLKOfqoWg?pwd=ufuf)
 
