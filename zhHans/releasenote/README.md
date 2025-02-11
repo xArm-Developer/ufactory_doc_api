@@ -15,7 +15,7 @@
 
 * 固件
 
-&#x20;         xArm系列， UFactory 850：[2.5.0](https://share.weiyun.com/cL2iMSAm)[v2.4.0](https://pan.baidu.com/s/1qavlHFxlz-7KM0zXe1-dCw?pwd=ufuf)   [v2.3.0](https://pan.baidu.com/s/17FaNZwgOjqQegq4K5m6PoQ?pwd=ufuf#list/path=%2F)    [ v2.2.0](https://pan.baidu.com/s/1IDni7Oa0CaTX-8GbREgh-A?pwd=ufuf)     [v2.1.0](https://pan.baidu.com/s/1Zev3FKiHnaXLhcEC0mbV8A?pwd=ufuf)     [v2.0.0](https://pan.baidu.com/s/1R7OQVafl52jl4WLKOfqoWg?pwd=ufuf)
+&#x20;         xArm系列， UFactory 850：[2.5.0](https://share.weiyun.com/cL2iMSAm) [v2.4.0](https://pan.baidu.com/s/1qavlHFxlz-7KM0zXe1-dCw?pwd=ufuf)   [v2.3.0](https://pan.baidu.com/s/17FaNZwgOjqQegq4K5m6PoQ?pwd=ufuf#list/path=%2F)    [ v2.2.0](https://pan.baidu.com/s/1IDni7Oa0CaTX-8GbREgh-A?pwd=ufuf)     [v2.1.0](https://pan.baidu.com/s/1Zev3FKiHnaXLhcEC0mbV8A?pwd=ufuf)     [v2.0.0](https://pan.baidu.com/s/1R7OQVafl52jl4WLKOfqoWg?pwd=ufuf)
 
 &#x20;         Lite6: [V2.5.0](https://share.weiyun.com/lqKTZZNF) [v2.4.0](https://pan.baidu.com/s/1ZHhfrS1QWTAcogbQ3hixpg?pwd=ufuf)   [v2.3.0](https://pan.baidu.com/s/1\_vklTAZe0jTpPEF1vtTs8Q?pwd=ufuf)[ ](https://pan.baidu.com/s/1RzyJXHH0hnMfZyj0R5yzbA?pwd=ufuf)    [v2.2.0](https://pan.baidu.com/s/1RmXKABtXVBWg24Crg1SGnw?pwd=ufuf)     [v2.1.0](https://pan.baidu.com/s/1ADBvFfJkbEDT45EsfIAvog?pwd=ufuf)     [v2.0.0](https://pan.baidu.com/s/1z-qOl0CMqe7Gx0ELi24wdQ?pwd=ufuf)
 
